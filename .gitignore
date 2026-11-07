@@ -1,0 +1,29 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Datasets and generated training artifacts
+data/
+dataset/
+datasets/
+cad-brain-tumor-dataset/
+outputs/
+outputs_*/
+roi_cache/
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
